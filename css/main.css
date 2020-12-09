@@ -2,7 +2,7 @@ body {
     color: white;
     text-align: left;
     font-family: 'Times New Roman', Times, serif;
-    background-image: url("/personalSite/img/stars.jpg");
+    background-image: url("img/stars.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
