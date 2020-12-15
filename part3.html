@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<title>[BEST] Reddit Corporation</title>
+<head>
+    <link rel="stylesheet" href="css3/main.css">
+</head>
+<body>
+
+	<div class="content">
+
+        <header>
+            <img id="logo" src="img/reddit-logo.png" style="height:75px; width:75px;">
+            <h1>[BEST] Reddit Corporation</h1>
+            <nav id="topNav">
+                <button class="navBtn" onclick="document.location='#logo'">Home</button>
+                <button class="navBtn" onclick="document.location='#flexin'">Info</button>
+                <button class="navBtn" onclick="document.location='#shipImages'">Ships</button>
+                <button class="navBtn" onclick="document.location='#more'">Contact Us</button>
+                <button class="navBtn" id="visitorBtn">Visitors</button>
+                
+            </nav>
+        </header>
+        <div class="flexin" id="flexin">
+            <section id="what">EVE Echoes is a massively multiplayer online role-playing game (MMORPG) based off of EVE Online. 
+                Echoes takes the EVE formula and starmap and adjusts it for mobile devices. 
+                Fly and fight across the thousands of star systems or join a corporation and stake your own claim, but beware that you'll soon have to defend your turf. 
+                If combat isn't your preference, you can also trade with other players in a completely player-driven economy. 
+                Mine asteroids for materials to make your own ships or modules, or pay others to do it for you. 
+                And if player versus player (PvP) isn't your style, there's plenty of player versus environment (PvE) content, pitting you against computer controlled enemies.
+                <br><br>
+                EVE is entirely player driven. Players buy, sell, create and destroy items and ships in the player-run economy. Players organize into corporations and alliances to 
+                protect, fight and war over territories. The largest battles in EVE have thousands of players fighting at once. EVE Echoes is a bit smaller, but has already seen 
+                fleet engagements of hundreds of players.
+                <br><br>
+                There are three kinds of space in EVE: highsec, lowsec and nullsec. In highsec you're safe from other players, but in low and nullsec you could be attacked. 
+                Why leave highsec then? Lowsec and nullsec both have valuable resources and stronger and more valuable NPCs to fight. High risk means high reward.
+            </section>
+            <section id="ships">
+                There are dozens of ships to fly in EVE, from tiny frigates to massive battleships. Each ship has its role, with frigates excelling in quick hit and run tactics,
+                as well as pinning other ships down, while battleships can unleash huge volleys from dozens of kilometers away. What ship you fly is up to you, as you learn and develop skills you can excel
+                at any ship.
+                <br><br>
+                <strong>Frigates</strong> are the quickest and nimblest of all ships. They often engage in what's called "speed tanking," where your ship flies so quickly, it simply can't be hit by other ships.
+                Frigates are the most fragile of the ships, so not getting hit is in your best interest. While not putting out the most damage, frigates demand an active, engaging play style that's a lot of fun.<br><br>
+                <strong>Destroyers</strong> are anti-frigate platforms as well as utility ships. Tougher than frigates, they can take a few hits before going down. Enjoy hitting other ships from long range with 
+                one of the 'sniper' destroyers, or stop foes in their tracks with an interdictor. <br><br>
+                <strong>Cruisers</strong> are a flexible class of ships, suitable for a variety of purposes. There are more cruisers than any other type of class, fitting their inherent flexibility. If you want 
+                to guard other ships, brawl up close with enemy fleets, support and heal other ships, target enemy ships for destruction, or even move stealthily behind enemy lines, there is a cruiser for you.<br><br>
+                <strong>Battlecruisers</strong> trade some flexibility for damage. Bulkier and slower than cruisers, battlecruisers are nevertheless fearsome fighters as they deal tremendous amounts of damage, and 
+                take it too. <br><br>
+                <strong>Battleships</strong> are slow and pondering, but incredibly tough to take down and incredibly deadly in a fight. Not to be underestimated, fleets have to be organized to counter a well-equipped
+                battleship. 
+            </section>
+            <section id="who">
+                [BEST] is the unofficial "reddit" corporation. Organized originally on reddit.com/r/echoes, it has grown to include dozens of players from all over the world. Day or night,
+                members play and engage in the wider Vendetta alliance to protect our own corner of space. We might not be the biggest corporation out there, but we're tenacious and won't give
+                up.  
+            </section>
+            <section id="combat"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/fvxFBYZa6vU"></iframe></section>
+            <section id="where">Welcome to nullsec: the lawless frontier of EVE Echoes. I won't make any silly comparisons to the Wild West. Here's it's kill or be killed. Unless you have friends.
+                That's where the corp comes in. People can band together to defend the space and use it for themselves, if they can keep it.
+                <img src="img/smallMap.png" alt="A small map of our corner of null." style="width:100%; height:auto;">
+            </section>
+            <nav>
+                <p id="whatLabel">What is EVE?</p>
+                <p id="shipsLabel">Ships to fly</p>
+                <p id="combatLabel">Combat in EVE</p>
+                <p id="whoLabel">Who is [BEST]?</p>
+                <p id="whereLabel">Home sweet home</p>
+            </nav>
+            <aside><img src="img/propPoster.jpg" alt="One of many propaganda posters for EVE Online"></aside>
+        </div>
+        <section id="shipimages">
+            <h2>Some of the Ships of EVE Echoes</h2>
+            <figure>
+                <img id="shipview" src="img/ship1.jpg" alt="The Worm">
+                <figcaption>credit for ship sketches: <a href="https://www.reddit.com/user/Kirkslovechild">u/kirkslovechild</a> on reddit</figcaption>
+            </figure>
+        </section>
+        <section id="more">
+            <h2>Contact us</h2>
+            <p>Care to enlist? Get in touch with us via our discord: <a href="https://discord.gg/zuZa5s5GSf">https://discord.gg/zuZa5s5GSf</a></p>
+        </section>
+        <footer>All images are (c) their respective owners. Copyright 2020</footer>
+    </div>
+
+    <section id="visitorModal" class="modal">
+        <div id="visitorContent" class="modal-content">
+            <div class="modal-header">
+                <span class="close">&times;</span>
+                <h3 id="enlistTitle">Enlist today!</h3>
+            </div>
+            <div class="modal-body">
+                <div id="enlistNav">
+                    <button id="newVisitor" class="navBtn modalBtn" onclick="openPage(event, 'formPage')">New visitor</button>
+                    <button id="editVisitor" class="navBtn modalBtn" onclick="openPage(event, 'editPage')">Edit visitor</button>
+                    <button id="allVisitor" class="navBtn modalBtn" onclick="openPage(event, 'visitorPage')">All visitors</button>
+                </div>
+                <div id="formPage" class="modalPage">
+                    <form id="visitorForm" novalidate>
+                        <div id="formTitle">Enter your information below:</div>
+                        <ul class="flex">
+                            <li>
+                                <input type="text" id="first-name" name="first-name" placeholder="first name" required>
+                                <div class="errorMsg">First name is required!</div>
+                            </li>
+                            <li>
+                                <input type="text" id="last-name" name="last-name" placeholder="last name" required>
+                                <div class="errorMsg">Last name is required!</div>
+                            </li>
+                            <li>
+                                <input type="text" id="address" name="address" placeholder="address:" required>
+                                <div class="errorMsg">Address is required!</div>
+                            </li>
+                            <li>
+                                <input type="text" id="city" name="city" placeholder="city:" required>
+                                <div class="errorMsg">City is required!</div>
+                            </li>
+                            <li>
+                                <input type="text"  id="state"  name="state" placeholder="state:" minlength="2" maxlength="2">
+                                <div class="errorMsg">State code is required!</div>
+                            </li>
+                            <li >
+                                <input id="zip" name="zip" type="text" placeholder="postal code:" pattern="[0-9]{5}" maxlength="5" required> 
+                                <div class="errorMsg">Valid postal code required!</div>
+                            </li>
+                            <li >
+                                <input type="email" id="email"  name="email" placeholder="email:" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" required>
+                                <div class="errorMsg">Valid email required!</div>
+                            </li>
+                            <li>
+                                <input type="phone" id="phone"  placeholder="phone number:" required>
+                                <div class="errorMsg">Valid phone number required!</div>
+                            </li>
+                            <li>
+                                <h4>How did you find this page?</h4>
+                            </li>
+                            <li>
+                                <input type="checkbox" id='google' name='find-page' value="google">  
+                                <label for="google">Google</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id='friend' name='find-page' value="friend">
+                                <label for="friend">Friend</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id='reddit' name='find-page' value="reddit">
+                                <label for="reddit">Reddit</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="facebook" name="find-page" value="facebook">
+                                <label for="facebook">Facebook</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id='discord' name='find-page' value="discord">
+                                <label for="discord">Discord</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id='twitter' name='find-page' value="twitter">
+                                <label for="twitter">Twitter</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id='other' name='find-page' value="other">
+                                <label for="other">Other (add comments)</label>
+                                <div class="errorMsg">Must select one!</div>
+                            </li>
+                            <li class="stacked">
+                                <label for="comment">Comments (optional)</label>
+                                <textarea id="comment" placeholder="Please tell us why you would like to join."></textarea>
+                            </li>
+                            <li>
+                                <button id="formSubmit" type="submit">Submit</button>
+                            </li>
+                        </ul>
+                    </form>
+                    <div id="congrats">Submitted successfully.<br><br>Thank you for your submission!</div>
+                </div>
+                <div id="visitorPage" class="modalPage">
+                    <table id="visitors">                         
+                    </table>
+                </div>
+                <div id="editPage" class="modalPage">Displaying other thing</div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="js3/view.js"></script>
+    <script src="js3/controller.js"></script> 
+    <script src="js3/model.js"></script>
+    <script src="js3/validation.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            initValidation("enlistForm");
+            document.getElementById("newVisitor").click();
+        });
+        
+    </script>
+</body>
+</html>
