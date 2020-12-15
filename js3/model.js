@@ -23,7 +23,7 @@ class visitor {
 var visitors = [
     new visitor(1, "Bob", "Dole", "601 Pennsylvania Ave, N.W", "Washington", "DC", "2004", "bobdole@government.chair", "202-654-4848", "None"),
     new visitor(2, "Test", "McTest", "123 Fake Lane", "Pseudopolis", "IN", "47712", "test@ben310.com" , "505-505-5555", "none"),
-    new visitor(3, "Naomi", "Priest", "963 W 670 S Unit 22", "Pleasant Grove", "UT", "84062", "notreal@trans?com", "812-682-1451", "none")
+    new visitor(3, "Naomi", "Priest", "1234 Place In Heart", "Pleasant Grove", "UT", "84062", "notreal@nosisters.com", "812-867-5309", "none")
 ];
 
 
