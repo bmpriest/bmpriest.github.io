@@ -83,16 +83,13 @@ function rotateShips() {
 }
 
 function openPage(evt, pageName) {
-    // Declare all variables
     var i, modalPages, modalBtns;
   
-    // Get all elements with class="tabcontent" and hide them
     modalPages = document.getElementsByClassName("modalPage");
     for (i = 0; i < modalPages.length; i++) {
         modalPages[i].style.display = "none";
     }
   
-    // Get all elements with class="tablinks" and remove the class "active"
     modalBtns = document.getElementsByClassName("modalBtn");
     for (i = 0; i < modalBtns.length; i++) {
         modalBtns[i].className = modalBtns[i].className.replace(" active", "");
@@ -104,9 +101,7 @@ function openPage(evt, pageName) {
     }
 
     writeTable();
-
   
-    // Show the current tab, and add an "active" class to the link that opened the tab
     document.getElementById(pageName).style.display = "block";
     evt.currentTarget.className += " active";
   }
